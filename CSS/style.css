@@ -1,0 +1,122 @@
+body{
+    background-color: azure;
+    color:black;
+}
+
+.background{
+    background-image: url(../images/backgroundbanner.jpg);
+    height:500px;
+    background-size:cover;
+    background-position: center;
+}
+
+.nav{
+    padding-right:20px;
+    margin-right:10px;
+    float:right;
+    list-style-type: none;
+    color:black;
+}
+
+.nav-footer{
+    padding:5px;
+    margin:5px;
+    float:right;
+    list-style-type: none;
+    color:black;
+    margin:10px;
+}
+
+.nav-footer li{
+    display: inline-block;
+margin:10px;
+padding:10px;
+}
+
+.nav li{
+    display:inline-block;
+    margin:10px;
+}
+
+
+.logo{
+    display:inline;
+    font-family:verdana;
+    position: relative;
+    list-style-type: none;
+    margin:0px;
+}
+.nav li:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+}
+
+.follow{
+    background-color: blue;
+    color:white;
+}
+
+.bannerpara{
+    position:absolute;
+    top:30%;
+    left:23%;
+}
+
+.bannerpara p{
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+    margin:0px;
+}
+
+.intro{
+    background-color: aquamarine;
+    color:black;
+    font-size:20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display:inline;
+    line-height: 27px;
+}
+
+.intro h3{
+    text-align: center;
+}
+.intro p{
+    color:black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer{
+    background-color: lightcoral;
+    color:black;
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:10px;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 20px;
+    width:1400px;
+    text-transform: capitalize;
+    text-align: center;
+    float:left;
+}
+
+.footer img{
+    float:left;
+    width:300px;
+    height:auto;
+    padding-left:0px;
+    margin-left:0px;
+}
+
+
+
+
+
+
